@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background: black;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+#header {
+  padding: 40px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav a {
+  font-size: 18px;
+  font-weight: 400;
+}
+.header input {
+  width: 165px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: none;
+}
+
+#hero {
+  padding: 60px 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero-text h1 {
+  width: 582px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 84px;
+}
+.hero-text p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 39px;
+  width: 536px;
+  opacity: 0.44;
+  margin: 30px 0;
+}
+.hero-text button {
+  width: 204px;
+  height: 58px;
+  border-radius: 4px;
+  background: #5454d4;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero-img {
+  position: relative;
+}
+.hero-img img {
+}
+.hero-img-a {
+  position: absolute;
+  left: 90%;
+}
+.hero-img-b {
+  position: absolute;
+  right: 660px;
+}
+.hero-img-c {
+  position: absolute;
+  right: 660px;
+  top: 660px;
+}
+
+#service {
+  padding: 70px 0;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 384px;
+  height: 300px;
+}
+.box img{
+    width: 69px;
+    height: 69px;
+}
+.box h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.box p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 290px;
+}
+.service h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    width: 695px;
+    text-align: center;
+}
